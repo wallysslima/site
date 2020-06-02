@@ -1,0 +1,28 @@
+<html>
+  {{ partial "head.html" }}
+  </head>
+  <body>
+    <div id="content">
+      {{ partial "header.html" }}
+      <section class="section">
+        {{ range .Site.Pages.ByDate.Reverse }}
+        {{ if ne .Title "Posts" }}
+        {{ if ne .Title "Wallysson Lima" }}
+        {{ if ne .Title "Tags" }}
+        {{ if ne .Title "Categories" }}
+        {{ if (not .Params.hidden) }}
+        <article>
+          <h3><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h3>
+          <div class="time">{{ .Date.Format "Monday, January 2, 2006" }}</div>
+          <p>{{ .Summary }}</p>
+        </article>
+        {{ end }}
+        {{ end }}
+        {{ end }}
+        {{ end }}
+        {{ end }}
+        {{ end }}
+      </section>
+    </div>
+  </body>
+</html>

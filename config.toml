@@ -1,0 +1,6 @@
+baseURL = "https://wallysslima.me"
+languageCode = "en-us"
+title = "Wallysson Lima"
+
+[markup.highlight]
+  style = "rainbow_dash"

@@ -1,0 +1,16 @@
+My personal site
+
+To run local:
+  docker build -t site:latest .
+  docker run --rm -v $PWD:/site -p 1313:1313 --name wl.wtf site
+
+Generating HTML files:
+  docker exec wl.wtf hugo
+
+Writing:
+  * New page:
+    - hugo new path/to/file.md
+
+  * LaTeX:
+    - create inline symbols putting LaTeX between single $
+    - create symbols putting LaTeX between double $$

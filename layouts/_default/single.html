@@ -1,0 +1,14 @@
+<html>
+  </head>
+    {{ partial "head.html" }}
+    {{ if .Params.hasMath }}
+      {{ partial "mathjax.html" }}
+    {{ end }}
+  </head>
+  <body>
+    <div id="content">
+      {{ partial "header.html" }}
+      {{ .Content }}
+    </div>
+  </body>
+</html>

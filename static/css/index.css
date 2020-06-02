@@ -1,0 +1,102 @@
+body {
+  text-align: center;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+twitter-widget, img {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.highlight {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+div#content {
+  max-width: 800px;
+  position: relative;
+  margin: 0 auto;
+}
+
+#content {
+  text-align: left;
+}
+
+header {
+  margin-bottom: 45px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div#logo-links {
+  display: flex;
+}
+
+div#logo-links > a {
+  margin-right: 10px;
+}
+
+a#logo {
+  color: #000;
+  font-weight: 550;
+  font-size: 25px;
+}
+
+a#logo:hover {
+  color: #CE2D4F;
+  font-weight: 590;
+  text-decoration: underline;
+}
+
+ul#social {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul#social > li {
+  float: right;
+}
+
+ul#social > li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+
+ul#social > li > a > img {
+  width: 20px;
+}
+
+a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #CE2D4F;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+article {
+  text-align: left;
+}
+
+article h1 {
+  margin: 0;
+}
+
+article > div.time {
+  margin-bottom: 15px;
+  color: #666;
+}
