@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wallysson Lima</title>
+    <link>https://wallysslima.me/</link>
+    <description>Recent content on Wallysson Lima</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://wallysslima.me/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://wallysslima.me/about/</link>
+      <pubDate>Thu, 23 Apr 2020 23:11:37 -0300</pubDate>
+      
+      <guid>https://wallysslima.me/about/</guid>
+      <description>Hi, I&amp;rsquo;m Wallysson, currently working with web development and living in Natal. I like a lot of different things, the main ones are math and programming related things.
+If you need to get touch with me, feel free to email me or send me a dm on twitter.</description>
+    </item>
+    
+  </channel>
+</rss>
