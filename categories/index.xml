@@ -5,10 +5,6 @@
     <link>https://wallysslima.me/categories/</link>
     <description>Recent content in Categories on Wallysson Lima</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://wallysslima.me/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://wallysslima.me/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
