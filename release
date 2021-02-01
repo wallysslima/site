@@ -1,0 +1,14 @@
+#!/bin/bash
+
+WORK_BRANCH=${WORK_BRANCH:="master"}
+
+if ! command -v hugo > /dev/null
+then
+  echo "Please, install hugo first!"
+  exit 1
+fi
+
+hugo && (
+  git checkout html
+  /usr/bin/cp -R ./public/* .
+)
