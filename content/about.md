@@ -5,9 +5,5 @@ hidden: true
 draft: false
 ---
 
-Hi, I'm Wallysson, currently working with web development and living in
-[Natal](https://en.wikipedia.org/wiki/Natal,_Rio_Grande_do_Norte).  I like a lot of different
-things, the main ones are math and programming related things.
-
-If you need to get touch with me, feel free to [email](mailto:wallysslima@gmail.com) me or send me a dm on
-[twitter](https://twitter.com/wallysslima).
+I'm currently working with web development related things, the most things that I do today are using
+[Python](https://python.org)
